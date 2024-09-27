@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./anh/ionCV.png">
+    <title>My CV</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh; /* Chiều cao bằng toàn bộ chiều cao của trang */
+        }
+        .left-section {
+            width: 25%; /* Phần bên trái chiếm 30% chiều rộng */
+            background-color: #a8a9a5;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .right-section {
+            width: 75%; /* Phần bên phải chiếm 70% chiều rộng */
+            background-color: #ecf0f1;
+            padding: 20px;
+            box-sizing: border-box;
+
+        }
+        h1 {
+            padding-top: 10px;
+            margin-top: 0;
+        }
+        .profile-picture{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+            display: block;
+            margin: 0 auto; /* Căn giữa ảnh */
+            margin-left: 10%;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Phần bên trái -->
+        <div class="left-section">
+
+            <img src="./anh/anh2.jpg" alt="Profile Picture" class="profile-picture">
+            <h1 >Nguyễn Văn Việt</h1>
+            <p><strong>Thông tin liên hệ</strong></p>
+            <ul>
+                <li>Email: viet22072004@gmail.com.</li>
+                <li>Phone: 0862923233.</li>
+                <li>Github:<a href="https://github.com/vanviet22">https://github.com/vanviet22.</a></li>
+            </ul>
+            <p><strong>Học vấn</strong></p>
+            <ul>
+                <li>Sinh viên năm 3 trường Đại học Sài Gòn.</li>
+                <li>Chuyên ngành Khoa học máy tính.</li>
+            </ul>
+            <p><strong>Sở thích</strong></p>
+            <ul>
+                <li>Bóng đá.</li>
+                <li>.....</li>
+            </ul>
+            <p><strong>Kĩ năng mềm</strong></p>
+            <ul>
+                <li>Quản lí thời gian của công việc.</li>
+                <li>Làm việc nhóm.</li>
+                <li>Ham học hỏi và cải thiện bản thân.</li>
+            </ul>
+        </div>
+
+        <!-- Phần bên phải -->
+        <div class="right-section">
+            <h2>Profile</h2>
+            <p>
+                Là sinh viên năm 3 chuyên ngành AI, tôi có kinh nghiệm thực hành với Java, Python, C++ và đã tham gia vào các dự án xây dựng web,
+                app desktop và model nhân dạng ảnh.Tôi mong muốn sẽ theo đuổi được chuyên ngành AI ra trường đúng hạn và được làm việc trong lĩnh vực 
+                AI với môi trường phù hợp, được học hỏi và cống hiến.
+            </p>
+            <h2>Ngôn ngữ lập trình</h2>
+            <ul>
+                <li>C++.</li>
+                <li>Java.</li>
+                <li>Python.</li>
+            </ul>
+            <h2>Project</h2>
+            <p><strong>Xây dựng hệ thống quản lí bán đồng hồ - app desktop</strong></p>
+            <p>Ngôn ngữ Java với mô hình 3 lớp và lưu trữ sử dụng MySQL.</p>
+            <p>Vai trò: Thiết kế frontend và làm  backend các thực thể. </p>
+            <p>Link github: <a href="https://github.com/vanviet22/Java-QuanLiCuaHangBanDongHo.git">Ở đây.</a></p>
+
+
+            <p><strong>Xây dựng hệ thống nhận diện biển báo giao thông</strong></p>
+            <p>Ngôn ngữ Python và lưu trữ sử dụng MySQL.</p>
+            <p>Vai trò: Thiết kế frontend và làm  backend các biển báo và tinh chỉnh model. </p>
+            <p>Link github: <a href="https://github.com/vanviet22/Python-HethongQuanLiVaNhanDienBienBaoGiaoThong.git">Ở đây.</a></p>
+
+            <h2>Ngôn ngữ</h2>
+            <p><Strong>Tiếng anh: </Strong>Hiện tại,tôi đang trao dồi thêm tại nhà.</p>
+        </div>
+    </div>
+
+</body>
+</html>
